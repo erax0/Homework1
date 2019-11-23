@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ResultTextAppearance" parent="android:TextAppearance.Large">
+
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="InfoTextAppearance" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+</resources>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android">
+    <level-list>
+        <item
+            android:maxLevel="3999"
+            android:minLevel="0">
+            <shape>
+                <solid android:color="@color/red_bad_password" />
+            </shape>
+        </item>
+        <item
+            android:maxLevel="7999"
+            android:minLevel="4000">
+            <shape>
+                <solid android:color="@color/yellow_mid_password" />
+            </shape>
+        </item>
+        <item
+            android:maxLevel="10000"
+            android:minLevel="8000">
+            <shape>
+                <solid android:color="@color/green_good_password" />
+            </shape>
+        </item>
+    </level-list>
+</clip>
